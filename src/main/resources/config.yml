@@ -1,0 +1,29 @@
+# SupaStaff settings
+messages:
+  prefix: ""
+  no-permission: "&cYou don't have permission to execute this command!"
+  player-offline: "&cThis user is offline."
+  player-not-found: "&cThat player does not exist."
+  usage: "&cUsage: {usage}"
+  vanish-on: "&aYou are now hidden from other players."
+  vanish-off: "&aYou are now visible to other players."
+  vanish-reminder: "&aDon't forget, you are still hidden from other players."
+  god-on: "&aYou are now in god mode."
+  god-off: "&aYou are no longer in god mode."
+  staffchat-on: "<#A8A8A8>You enabled staff chat."
+  staffchat-off: "<#A8A8A8>You disabled staff chat."
+  staffchat-format: "<#FC0000>[STAFF] {player}: &f{message}"
+  teleport-self: "&aYou have teleported to {target}."
+  teleport-other: "&aYou have teleported {player} to {target}."
+  teleport-here: "&aYou have teleported {target} to you."
+  gamemode-self: "&aYou have changed your gamemode to {mode}."
+  gamemode-other: "&aYou have changed {player}'s gamemode to {mode}."
+  view-inventory: "&aYou are currently viewing {player}'s inventory."
+  view-enderchest: "&aYou are currently viewing {player}'s enderchest."
+  god-reminder: "&aDon't forget, you are still in god mode."
+actions:
+  send-action-bars: true
+  notify-staff-about-vanish: true
+  notify-staff-about-gamemode: false
+  remember-vanish-on-restart: true
+  remember-godmode-on-restart: true
