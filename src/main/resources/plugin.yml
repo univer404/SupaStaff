@@ -1,0 +1,74 @@
+name: SupaStaff
+version: 1.0.0
+main: com.supernulled.supastaff.SupaStaff
+api-version: '1.21'
+author: SuperNulled
+description: Staff utilities converted from Skript.
+commands:
+  vanish:
+    aliases: [v]
+    permission: vanish.use
+    description: Toggle staff vanish.
+  staffchat:
+    aliases: [sc]
+    permission: staffchat.use
+    description: Toggle staff chat or send a staff message.
+    usage: /staffchat [message]
+  teleport:
+    aliases: [tp]
+    permission: teleport.use
+    description: Teleport to a player or teleport one player to another.
+    usage: /teleport <player> [target]
+  tphere:
+    aliases: [s]
+    permission: teleport.use
+    description: Teleport a player to you.
+    usage: /tphere <player>
+  gmc:
+    aliases: [creative]
+    permission: gamemode.use
+    description: Set creative mode.
+  gms:
+    aliases: [survival]
+    permission: gamemode.use
+    description: Set survival mode.
+  gma:
+    aliases: [adventure]
+    permission: gamemode.use
+    description: Set adventure mode.
+  gmsp:
+    aliases: [spectator]
+    permission: gamemode.use
+    description: Set spectator mode.
+  gamemode:
+    aliases: [gm]
+    permission: gamemode.use
+    description: Change your or another player's gamemode.
+    usage: /gamemode <mode> [player]
+  viewenderchest:
+    permission: viewenderchest.use
+    description: View an online player's ender chest.
+    usage: /viewenderchest <player>
+  viewinventory:
+    permission: viewinventory.use
+    description: View an online player's inventory.
+    usage: /viewinventory <player>
+  god:
+    aliases: [godmode]
+    permission: godmode.use
+    description: Toggle god mode.
+permissions:
+  vanish.use:
+    default: op
+  staffchat.use:
+    default: op
+  teleport.use:
+    default: op
+  gamemode.use:
+    default: op
+  viewenderchest.use:
+    default: op
+  viewinventory.use:
+    default: op
+  godmode.use:
+    default: op
